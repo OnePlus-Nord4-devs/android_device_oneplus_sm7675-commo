@@ -222,13 +222,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.fdsan=warn_once
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3 \
-    android.hardware.biometrics.fingerprint-V2.3-java \
-    vendor.oplus.hardware.biometrics.fingerprint-V2.1-java.vendor \
-    vendor.oplus.hardware.osense.client-service
-
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
