@@ -1192,7 +1192,6 @@ odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
 odm/lib64/libcreatebin.so
-odm/lib64/libcvface_api.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libextensionlayer.so
