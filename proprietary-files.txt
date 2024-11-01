@@ -706,8 +706,6 @@ odm/etc/camera/anc/fusion_model_post
 odm/etc/camera/anc/fusion_model
 odm/etc/camera/aiboost_qnn_htp2.2.0_3404116395018271362.bin
 odm/etc/camera/aiboost_qnn_htp2.2.0_2468630351544828688.bin
-odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle
-odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle
 odm/etc/camera/pf/PerfectColorSet/portrait/CurveLut
 odm/etc/camera/pf/PerfectColorSet/portrait/ColorLut
 odm/etc/camera/fb_model/whiteToneLut.png
