@@ -1171,9 +1171,7 @@ odm/lib64/libapspng.so
 odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_distortion_correction.so
 odm/lib64/libarcsoft_dualcam_bokeh_api.so
-odm/lib64/libarcsoft_dualcam_refocus_left.so
 odm/lib64/libarcsoft_dualcam_refocus_preview.so
-odm/lib64/libarcsoft_dualcam_refocus_uw.so
 odm/lib64/libarcsoft_hdr_couple_api.so
 odm/lib64/libarcsoft_hdr_denoise_api.so
 odm/lib64/libarcsoft_high_dynamic_range.so
@@ -1193,8 +1191,6 @@ odm/lib64/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
 odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_turbo_hdr_grf.so
-odm/lib64/libarcsoft_turbo_hdr_raw.so
-odm/lib64/libarcsoft_turbo_hdr_raw_front.so
 odm/lib64/libarcsoft_turbo_raw.so
 odm/lib64/libarcsoft_ultra_high_dynamic_range.so
 odm/lib64/libarcsoft_videoautozoom.so
