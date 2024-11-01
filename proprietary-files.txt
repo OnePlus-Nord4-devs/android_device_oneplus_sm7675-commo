@@ -1691,7 +1691,6 @@ vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger
-odm/firmware/fastchg/23803/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/charging_thermal_config_default.txt
@@ -3195,7 +3194,6 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 
 # UFS
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
-odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
 odm/firmware/ufs/SKhynix-HN8T05DEHKX073.bin
 odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
 
