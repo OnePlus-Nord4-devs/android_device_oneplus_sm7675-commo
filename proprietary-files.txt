@@ -1575,7 +1575,6 @@ vendor/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim
 vendor/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim
 vendor/etc/vintf/manifest/vendor.qti.camera.offlinecamera-impl.xml
 
-odm/etc/init/init.camera_upate.rc
 odm/etc/init/vendor.oplus.hardware.olc2-V2-service.rc
 odm/bin/hw/vendor.oplus.hardware.olc2-V2-service
 odm/etc/lra_model_0.conf
