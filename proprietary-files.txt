@@ -1197,7 +1197,6 @@ odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libextensionlayer.so
 odm/lib64/libfovctrl.so
-odm/lib64/libfuai_vendor.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
 odm/lib64/libiceainr.so
@@ -1552,11 +1551,9 @@ vendor/lib64/libRGBC.so
 vendor/lib64/libSensorsInterface.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib64/libTxPwrJni.so
-vendor/lib64/libbase64.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libface3d_dev.so
 vendor/lib64/libiccprofile.so
-vendor/lib64/libloadtrusteduiapp.so
 vendor/lib64/libmiracast.so
 vendor/lib64/libmm-omxcore.so
 vendor/lib64/libnative-api.so
@@ -1597,7 +1594,6 @@ odm/lib64/libextendfile.so
 odm/lib64/libfido2_factory.so
 odm/lib64/libfido_factory.so
 odm/lib64/libifaa_factory.so
-odm/lib64/libkeymaster_portable.so
 odm/lib64/libmindroid-app.so
 odm/lib64/libmindroid-framework.so
 odm/lib64/libml_util.so
@@ -1627,7 +1623,6 @@ odm/lib64/libsecurity_event_dcs.so
 odm/lib64/libsecurity_event_dcs_vnd.so
 odm/lib64/libsfplugin_ccodec_utils.so
 odm/lib64/libsnpeml.so
-odm/lib64/libsoft_attestation_cert.so
 odm/lib64/libssd_det.so
 odm/lib64/libstfaceunlockocl_uff.so
 odm/lib64/libsubsys-service.so
@@ -1795,7 +1790,6 @@ vendor/etc/chre/preloaded_nanoapps.json
 vendor/etc/init/android.hardware.contexthub-service.qmi.rc
 
 # CVP
-system_ext/lib/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # CVP firmware
@@ -1913,7 +1907,6 @@ odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
 odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
 odm/etc/displaycolorfeaturecfg.xml
-
 odm/etc/PanelChaplin/AdjustValue
 odm/etc/PanelChaplin/panelchaplin
 vendor/bin/feature_enabler_client
@@ -1969,7 +1962,6 @@ odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
 system_ext/lib64/vendor.pixelworks.hardware.display@1.0.so
 system_ext/lib64/vendor.pixelworks.hardware.display@1.1.so
 system_ext/lib64/vendor.pixelworks.hardware.feature@1.0.so
-vendor/lib64/vendor.pixelworks.hardware.display-V1-ndk.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.2.so
@@ -2113,7 +2105,6 @@ vendor/lib64/vendor.libdpmctmgr.so
 vendor/lib64/vendor.libdpmfdmgr.so
 vendor/lib64/vendor.libdpmframework.so
 vendor/lib64/vendor.libdpmtcm.so
-vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.dpmservice@1.0.so
 vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so
 
@@ -2612,7 +2603,6 @@ odm/etc/nfc/libnfc-mtp-SN220.conf_22877:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_22877:vendor/etc/libnfc-nci.conf
 odm/etc/libnfc-nci.conf
 odm/lib64/libpnscr2_aidl.so
-odm/lib64/libjc_keymint_nxp.so
 odm/lib64/libjc_keymint_transport_nxp.so
 odm/lib64/jcos_nq_client.so
 vendor/etc/hal_uuid_map_config.xml
@@ -2630,7 +2620,6 @@ odm/lib64/vendor.oplus.hardware.performance-V1-ndk.so
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
-odm/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 
 # PD
@@ -2792,7 +2781,6 @@ odm/lib64/libcommcenterutils.so
 odm/lib64/libdmtp-protos-lite.so
 odm/lib64/libdmtp.so
 odm/lib64/libdmtpclient.so
-odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
@@ -2911,7 +2899,6 @@ vendor/lib64/qtiPeripheralMgr.so
 vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
 vendor/lib64/vendor.oplus.hardware.appradioaidl-V1-ndk.so
-vendor/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.communicationcenter-V2-ndk.so
 vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
@@ -2993,7 +2980,6 @@ vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libqcbor.so
 
 # Secure element
-vendor/bin/hw/android.hardware.secure_element-service.qti
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPQeSE.so
@@ -3174,7 +3160,6 @@ vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Trusted User Interface
-vendor/lib64/libTrustedUIAIDL.so
 vendor/lib64/libcpion.so
 vendor/lib64/libsi.so
 vendor/lib64/libtrustedapploader.so
