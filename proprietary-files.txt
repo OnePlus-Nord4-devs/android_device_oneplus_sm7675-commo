@@ -683,7 +683,6 @@ odm/etc/camera/config/imx355
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
-odm/etc/camera/cfr_bin/CFR_imx882.bin
 odm/etc/camera/cfr_bin/CFR_imx709.bin
 odm/etc/camera/cfr_bin/CFR_imx581.bin
 odm/etc/camera/cfr_bin/CFR_imx355.bin
@@ -3005,7 +3004,6 @@ vendor/lib64/libqcbor.so
 
 # Secure element
 vendor/bin/hw/android.hardware.secure_element-service.qti
-vendor/etc/init/android.hardware.secure_element-service.qti.rc
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPQeSE.so
