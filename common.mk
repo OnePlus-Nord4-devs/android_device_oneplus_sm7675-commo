@@ -433,10 +433,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/oplus \
     hardware/qcom-caf/common/libqti-perfd-client \
 
-# Kernel
-LOCAL_KERNEL := device/xiaomi/sunny-kernel/Image
-PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel
 
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
