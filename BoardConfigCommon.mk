@@ -232,9 +232,9 @@ BOOT_SECURITY_PATCH := 2024-07-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # SEPolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 #include hardware/oplus/sepolicy/qti/SEPolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # Touch
 SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_TOUCH_HAL
