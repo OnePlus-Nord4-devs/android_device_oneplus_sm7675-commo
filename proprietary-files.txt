@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Ace 3v (ColorOS 14.0.1.630 A40).
+## are from OnePlus Nord 4 (OxygenOS CPH2661_11_A.16).
 
 # ACDBs
 vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
@@ -87,7 +87,7 @@ odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so
 odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so
 odm/lib/rfsa/adsp/libvdblurless_5.0.2_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
-odm/lib/rfsa/adsp/nlc_bgth_v1_5.so
+
 vendor/lib/rfsa/adsp/chre_qsh_shim.so
 vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
 vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
@@ -683,7 +683,6 @@ odm/etc/camera/config/imx355
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
-odm/etc/camera/cfr_bin/CFR_imx882.bin
 odm/etc/camera/cfr_bin/CFR_imx709.bin
 odm/etc/camera/cfr_bin/CFR_imx581.bin
 odm/etc/camera/cfr_bin/CFR_imx355.bin
@@ -706,8 +705,6 @@ odm/etc/camera/anc/fusion_model_post
 odm/etc/camera/anc/fusion_model
 odm/etc/camera/aiboost_qnn_htp2.2.0_3404116395018271362.bin
 odm/etc/camera/aiboost_qnn_htp2.2.0_2468630351544828688.bin
-odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle
-odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle
 odm/etc/camera/pf/PerfectColorSet/portrait/CurveLut
 odm/etc/camera/pf/PerfectColorSet/portrait/ColorLut
 odm/etc/camera/fb_model/whiteToneLut.png
@@ -1071,7 +1068,6 @@ odm/lib64/camera/components/com.oplus.node.sstabgme.so
 odm/lib64/camera/components/com.oplus.node.sstabphoto.so
 odm/lib64/camera/components/com.oplus.node.sstabrealt.so
 odm/lib64/camera/com.qti.sensor.imx355.so
-odm/lib64/camera/com.qti.sensor.imx882.so
 odm/lib64/camera/com.qti.sensormodule.qtech_s5k3p9.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx882.bin
@@ -1106,7 +1102,6 @@ odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegMultiSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
-odm/lib64/libCNamaSDK_vendor.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCS.so
 odm/lib64/libCaptureBokeh.so
@@ -1121,7 +1116,6 @@ odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libFilterWrapper.so
 odm/lib64/libHIS.so
 odm/lib64/libImageWarpMask.so
-odm/lib64/libNamaWrapper.so
 odm/lib64/libOGLManager.so
 odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so
 odm/lib64/libOPAlgoCamAiBeautyEyeRetouchCn.so
@@ -1171,9 +1165,7 @@ odm/lib64/libapspng.so
 odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_distortion_correction.so
 odm/lib64/libarcsoft_dualcam_bokeh_api.so
-odm/lib64/libarcsoft_dualcam_refocus_left.so
 odm/lib64/libarcsoft_dualcam_refocus_preview.so
-odm/lib64/libarcsoft_dualcam_refocus_uw.so
 odm/lib64/libarcsoft_hdr_couple_api.so
 odm/lib64/libarcsoft_hdr_denoise_api.so
 odm/lib64/libarcsoft_high_dynamic_range.so
@@ -1193,23 +1185,17 @@ odm/lib64/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
 odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_turbo_hdr_grf.so
-odm/lib64/libarcsoft_turbo_hdr_raw.so
-odm/lib64/libarcsoft_turbo_hdr_raw_front.so
 odm/lib64/libarcsoft_turbo_raw.so
 odm/lib64/libarcsoft_ultra_high_dynamic_range.so
 odm/lib64/libarcsoft_videoautozoom.so
 odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
-odm/lib64/libcppbor_external.so
-odm/lib64/libcppcose_rkp.so
 odm/lib64/libcreatebin.so
-odm/lib64/libcvface_api.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libextensionlayer.so
 odm/lib64/libfovctrl.so
-odm/lib64/libfuai_vendor.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
 odm/lib64/libiceainr.so
@@ -1552,7 +1538,6 @@ framework/vendor.oplus.hardware.olc2-V2-java.jar
 lib64/vendor.oplus.hardware.olc2-V1-ndk.so
 lib64/vendor.oplus.hardware.olc2-V2-ndk.so
 system_ext/lib64/libolc.so
-
 vendor/lib64/vendor.oplus.hardware.olc2-V2-ndk.so
 vendor/lib64/camera/bitmlconfig_sm8635.bin
 vendor/lib64/camera/imx615_2.pb
@@ -1565,11 +1550,9 @@ vendor/lib64/libRGBC.so
 vendor/lib64/libSensorsInterface.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib64/libTxPwrJni.so
-vendor/lib64/libbase64.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libface3d_dev.so
 vendor/lib64/libiccprofile.so
-vendor/lib64/libloadtrusteduiapp.so
 vendor/lib64/libmiracast.so
 vendor/lib64/libmm-omxcore.so
 vendor/lib64/libnative-api.so
@@ -1580,8 +1563,6 @@ vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl.xml
 vendor/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim
 vendor/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim
 vendor/etc/vintf/manifest/vendor.qti.camera.offlinecamera-impl.xml
-
-odm/etc/init/init.camera_upate.rc
 odm/etc/init/vendor.oplus.hardware.olc2-V2-service.rc
 odm/bin/hw/vendor.oplus.hardware.olc2-V2-service
 odm/etc/lra_model_0.conf
@@ -1593,7 +1574,6 @@ odm/lib64/sr_models.bin
 odm/lib64/sr_ref_models.bin
 odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.olc2-V2-ndk.so
-
 odm/lib64/libGaiaClient.so
 odm/lib64/libGaiaClient_vnd.so
 odm/lib64/libHDRDetection.so
@@ -1604,7 +1584,6 @@ odm/lib64/libPanelChaplin.so
 odm/lib64/libSnpeCpu.so
 odm/lib64/libSnpeGpu.so
 odm/lib64/libUpScale.so
-odm/lib64/lib_android_keymaster_keymint_utils.so
 odm/lib64/libbinaural_record_session_aidl.so
 odm/lib64/libchrome.so
 odm/lib64/libdisplayaidlapis.so
@@ -1614,7 +1593,6 @@ odm/lib64/libextendfile.so
 odm/lib64/libfido2_factory.so
 odm/lib64/libfido_factory.so
 odm/lib64/libifaa_factory.so
-odm/lib64/libkeymaster_portable.so
 odm/lib64/libmindroid-app.so
 odm/lib64/libmindroid-framework.so
 odm/lib64/libml_util.so
@@ -1644,7 +1622,6 @@ odm/lib64/libsecurity_event_dcs.so
 odm/lib64/libsecurity_event_dcs_vnd.so
 odm/lib64/libsfplugin_ccodec_utils.so
 odm/lib64/libsnpeml.so
-odm/lib64/libsoft_attestation_cert.so
 odm/lib64/libssd_det.so
 odm/lib64/libstfaceunlockocl_uff.so
 odm/lib64/libsubsys-service.so
@@ -1698,7 +1675,6 @@ vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger
-odm/firmware/fastchg/23803/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/charging_thermal_config_default.txt
@@ -1813,7 +1789,6 @@ vendor/etc/chre/preloaded_nanoapps.json
 vendor/etc/init/android.hardware.contexthub-service.qmi.rc
 
 # CVP
-system_ext/lib/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # CVP firmware
@@ -1931,31 +1906,6 @@ odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
 odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
 odm/etc/displaycolorfeaturecfg.xml
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EP3_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EP3_2nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EP3_100nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Cinema_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_2_max.odf
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_2_2nit.odf
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_2_100nit.odf
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_1_max.odf
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_1_2nit.odf
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_1_100nit.odf
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Nature_100nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_LsRGB_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_HS
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EsRGB_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Nature_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Nature_2nits_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Vivid_pGC.txt
-odm/etc/PanelChaplin/AA553_P_7_A0001_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt
 odm/etc/PanelChaplin/AdjustValue
 odm/etc/PanelChaplin/panelchaplin
 vendor/bin/feature_enabler_client
@@ -2011,7 +1961,6 @@ odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
 system_ext/lib64/vendor.pixelworks.hardware.display@1.0.so
 system_ext/lib64/vendor.pixelworks.hardware.display@1.1.so
 system_ext/lib64/vendor.pixelworks.hardware.feature@1.0.so
-vendor/lib64/vendor.pixelworks.hardware.display-V1-ndk.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.2.so
@@ -2155,7 +2104,6 @@ vendor/lib64/vendor.libdpmctmgr.so
 vendor/lib64/vendor.libdpmfdmgr.so
 vendor/lib64/vendor.libdpmframework.so
 vendor/lib64/vendor.libdpmtcm.so
-vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.dpmservice@1.0.so
 vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so
 
@@ -2227,7 +2175,6 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl.xml
 odm/lib64/android.hardware.biometrics.common-V1-ndk.so
-odm/lib64/android.hardware.biometrics.common-V2-ndk.so
 odm/lib64/android.hardware.biometrics.fingerprint-V1-ndk.so
 odm/lib64/libolc_vnd.so
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk.so
@@ -2393,13 +2340,13 @@ system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|a7e1
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|c5c9dd633c3f5450f315017cd4645a11de3d7ed3|4bde619dc1436503a0a4555a7a11b8eabcfb449d
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml|6c5084bef15012cf2a55426a35f696db3995ba16
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c76193acdc2f923fe7
-system_ext/lib64/lib-imsvideocodec.so|fe3f4e54ef28d6739dae639faed9e56672bce707
-system_ext/lib64/lib-imsvt.so|ccd0a8655f950d3fa418ec9ec717ba2e96b2ac87
+system_ext/lib64/lib-imsvideocodec.so|0f916455b4593e91df8c3809c6ed4d52f414b50e
+system_ext/lib64/lib-imsvt.so|0517dff9db29cbf4a2a62706e1ce3b322cf1d681
 system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
 system_ext/lib64/lib-imsvtutils.so|8a8d4f3c6b57fc3a31f0982a9cd43b990514e1a7
-system_ext/lib64/libdiag_system.so|b479225f6d2a3e39dde96a22563a149dcb7f90d8
-system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|ca67ceb33d74db1f2d84d06a827c1c7d06bd3256
-system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|19889926ad7e21124b32bcd56139a9343be5e768
+system_ext/lib64/libdiag_system.so|d9efcc84d5a4449d4183ca9a208e168415d660fd
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|6f6c3104b8d04f8a416629ddafca5e7514151ac6
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|d4a4e2fad2c2c89552d23c3ff86ea5eab705495d
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|bb32703c026364da33ca1b4f83c839e1e312ae9b
 system_ext/lib64/vendor.qti.ims.datachannelservice-V1-ndk.so|6e0f383472e9f295333621d72050c70a30c4a5a6
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
@@ -2655,7 +2602,6 @@ odm/etc/nfc/libnfc-mtp-SN220.conf_22877:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_22877:vendor/etc/libnfc-nci.conf
 odm/etc/libnfc-nci.conf
 odm/lib64/libpnscr2_aidl.so
-odm/lib64/libjc_keymint_nxp.so
 odm/lib64/libjc_keymint_transport_nxp.so
 odm/lib64/jcos_nq_client.so
 vendor/etc/hal_uuid_map_config.xml
@@ -2673,7 +2619,6 @@ odm/lib64/vendor.oplus.hardware.performance-V1-ndk.so
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
-odm/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 
 # PD
@@ -2835,7 +2780,6 @@ odm/lib64/libcommcenterutils.so
 odm/lib64/libdmtp-protos-lite.so
 odm/lib64/libdmtp.so
 odm/lib64/libdmtpclient.so
-odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
@@ -2954,7 +2898,6 @@ vendor/lib64/qtiPeripheralMgr.so
 vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
 vendor/lib64/vendor.oplus.hardware.appradioaidl-V1-ndk.so
-vendor/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.communicationcenter-V2-ndk.so
 vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
@@ -3036,8 +2979,6 @@ vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libqcbor.so
 
 # Secure element
-vendor/bin/hw/android.hardware.secure_element-service.qti
-vendor/etc/init/android.hardware.secure_element-service.qti.rc
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPQeSE.so
@@ -3218,7 +3159,6 @@ vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Trusted User Interface
-vendor/lib64/libTrustedUIAIDL.so
 vendor/lib64/libcpion.so
 vendor/lib64/libsi.so
 vendor/lib64/libtrustedapploader.so
@@ -3226,7 +3166,6 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 
 # UFS
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
-odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
 odm/firmware/ufs/SKhynix-HN8T05DEHKX073.bin
 odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
 
