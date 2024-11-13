@@ -257,6 +257,9 @@ vendor/etc/models/acd/environment.eai
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
+vendor/lib64/libagmmixer.so
+vendor/lib64/libagm_compress_plugin.so
+vendor/lib64/libagm_mixer_plugin.so
 vendor/lib64/hw/audio.primary.pineapple.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
@@ -683,6 +686,7 @@ odm/etc/camera/config/imx355
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
+odm/etc/camera/cfr_bin/CFR_imx882_avalon.bin
 odm/etc/camera/cfr_bin/CFR_imx709.bin
 odm/etc/camera/cfr_bin/CFR_imx581.bin
 odm/etc/camera/cfr_bin/CFR_imx355.bin
@@ -1068,6 +1072,7 @@ odm/lib64/camera/components/com.oplus.node.sstabgme.so
 odm/lib64/camera/components/com.oplus.node.sstabphoto.so
 odm/lib64/camera/components/com.oplus.node.sstabrealt.so
 odm/lib64/camera/com.qti.sensor.imx355.so
+odm/lib64/camera/com.qti.sensor.imx882_avalon.so
 odm/lib64/camera/com.qti.sensormodule.qtech_s5k3p9.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx882.bin
@@ -1906,6 +1911,31 @@ odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
 odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
 odm/etc/displaycolorfeaturecfg.xml
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_1_100nit.odf
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_1_2nit.odf
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_1_max.odf
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_2_100nit.odf
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_2_2nit.odf
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_2_max.odf
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Cinema_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EP3_100nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EP3_2nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EP3_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_EsRGB_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_HS
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_LsRGB_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Nature_100nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Nature_2nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Nature_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt
+odm/etc/PanelChaplin/AA584_P_7_A0001_dsc_cmd_mode_panel_Vivid_pGC.txt
 odm/etc/PanelChaplin/AdjustValue
 odm/etc/PanelChaplin/panelchaplin
 vendor/bin/feature_enabler_client
@@ -3166,6 +3196,7 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 
 # UFS
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
+odm/firmware/ufs/SKhynix-HN8T05BZGKX015.bin
 odm/firmware/ufs/SKhynix-HN8T05DEHKX073.bin
 odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
 
